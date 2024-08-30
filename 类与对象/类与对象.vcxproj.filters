@@ -18,7 +18,13 @@
     <ClCompile Include="1.类的定义与使用.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="2.g构造函数.cpp">
+    <ClCompile Include="2.构造函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.初始化列表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.析构函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

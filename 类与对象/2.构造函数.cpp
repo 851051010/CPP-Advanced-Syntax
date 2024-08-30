@@ -8,39 +8,18 @@ private:
 	int m_length;
 	int m_width;
 public:     
+	//定义构造函数
 	Rectangle(int length, int width);
-	void setLength(int length);
-	int getLength();
-	void setWidth(int width);
-	int getWitdth();
 	void info();
 	int getArea();
+	void zoom(int size);
 };
 
 Rectangle::Rectangle(int length, int width)
 {
+	cout << "Rectangle::Rectangle()" << endl;
 	m_length = length;
 	m_width = width;
-}
-
-void Rectangle::setLength(int length)
-{
-	m_length = length;
-}
-
-int Rectangle::getLength()
-{
-	return m_length;
-}
-
-void Rectangle::setWidth(int width)
-{
-	m_width = width;
-}
-
-int Rectangle::getWitdth()
-{
-	return m_width;
 }
 
 void Rectangle::info()
@@ -53,11 +32,23 @@ int Rectangle::getArea()
 	return m_length * m_width;
 	}
 
+void Rectangle::zoom(int size)
+{
+	m_length += size;
+	m_width += size;
+}
+
 int main()
 {
 	Rectangle r(2, 3);
 	r.info();
 	cout << r.getArea() << endl;
+
+	r.zoom(10);
+	r.info();
+
+	r.zoom(-5);
+	r.info();
 
 	return 0;
 }
