@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+
 class Circle
 {
 private:
@@ -19,7 +20,7 @@ Circle::Circle(int radius) : m_tadius(radius), PI(3.1415926)
 	/*
 		常量不允许在构造函数的函数体中初始化，但是允许在构造列表中初始化。
 		PI= 3.1415;不允许
-		变量不允许在构造函数的函数体中初始化，也允许在构造列表中初始化。
+		变量允许在构造函数的函数体中初始化，也允许在构造列表中初始化。
 		m_radius = radius 允许
 		
 		通常只在构造列表中初始化常量

@@ -9,7 +9,8 @@ private:
 	int m_radius;
 public:
 	Circle(int radius);
-	Circle(const char* name, int radius);  //常量字符串只能用常量指针来指
+	//常量字符串只能用常量指针来指
+	Circle(const char* name, int radius); 
 	~Circle();   // 析构函数
 	void info();
 };
@@ -31,7 +32,6 @@ Circle::Circle(const char* name, int radius)
 // 析构函数的实现
 Circle::~Circle()
 {
-	cout << "Ciecle析构中........." << m_name << endl;
 	delete[] m_name;
 }
 
@@ -42,10 +42,10 @@ void Circle::info()
 
 int main()
 {
-	Circle c("C1",3);
+	// 先构造后析构，栈
+	Circle c("C1",3);      
 	c.info();
-
-	Circle c1("C2", 3);   // 后构造先析构，栈
-
+	// 后构造先析构，栈
+	Circle c1("C2", 3);   
 	return 0;
 }

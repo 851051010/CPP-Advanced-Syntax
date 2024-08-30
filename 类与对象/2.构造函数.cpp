@@ -17,7 +17,6 @@ public:
 
 Rectangle::Rectangle(int length, int width)
 {
-	cout << "Rectangle::Rectangle()" << endl;
 	m_length = length;
 	m_width = width;
 }
