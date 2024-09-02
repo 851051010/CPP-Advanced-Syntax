@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "类与对象", "类与对象\类与对象.vcxproj", "{DA2DE577-8E8A-483E-98B4-5CAE250D24CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "类的继承", "类的继承\类的继承.vcxproj", "{548CE48A-EF12-4BA8-85D7-FAEE947B078E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{DA2DE577-8E8A-483E-98B4-5CAE250D24CA}.Release|x64.Build.0 = Release|x64
 		{DA2DE577-8E8A-483E-98B4-5CAE250D24CA}.Release|x86.ActiveCfg = Release|Win32
 		{DA2DE577-8E8A-483E-98B4-5CAE250D24CA}.Release|x86.Build.0 = Release|Win32
+		{548CE48A-EF12-4BA8-85D7-FAEE947B078E}.Debug|x64.ActiveCfg = Debug|x64
+		{548CE48A-EF12-4BA8-85D7-FAEE947B078E}.Debug|x64.Build.0 = Debug|x64
+		{548CE48A-EF12-4BA8-85D7-FAEE947B078E}.Debug|x86.ActiveCfg = Debug|Win32
+		{548CE48A-EF12-4BA8-85D7-FAEE947B078E}.Debug|x86.Build.0 = Debug|Win32
+		{548CE48A-EF12-4BA8-85D7-FAEE947B078E}.Release|x64.ActiveCfg = Release|x64
+		{548CE48A-EF12-4BA8-85D7-FAEE947B078E}.Release|x64.Build.0 = Release|x64
+		{548CE48A-EF12-4BA8-85D7-FAEE947B078E}.Release|x86.ActiveCfg = Release|Win32
+		{548CE48A-EF12-4BA8-85D7-FAEE947B078E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

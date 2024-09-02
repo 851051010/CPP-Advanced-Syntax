@@ -15,23 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.类的定义与使用.cpp">
+    <ClCompile Include="1.派生类的定义与使用.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="2.构造函数.cpp">
+    <ClCompile Include="Pet.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="3.初始化列表.cpp">
+    <ClCompile Include="Cat.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="4.析构函数.cpp">
+    <ClCompile Include="Dog.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="6.拷贝构造函数.cpp">
+    <ClCompile Include="2.派生类的构造和析构过程.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="7.赋值函数.cpp">
+    <ClCompile Include="3.多继承.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
