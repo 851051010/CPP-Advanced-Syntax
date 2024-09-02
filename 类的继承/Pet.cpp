@@ -17,3 +17,5 @@ void Pet::barking()
 {
 	cout << m_name << "ÔÚ½Ğ" << endl;
 }
+
+

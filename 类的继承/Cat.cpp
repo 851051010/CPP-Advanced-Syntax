@@ -11,3 +11,5 @@ Cat::Cat(const char* name, int age) : Pet(name, age)
 {
 	cout << "×ÓÀà" << endl;
 }
+
+
