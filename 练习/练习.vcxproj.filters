@@ -15,39 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.浅拷贝.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="2.深拷贝.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="3.类的组合.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Point.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="Circle.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="4.静态数据成员.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="5.静态成员函数.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="6.常对象.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="7.常成员函数.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="8.this指针.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Circle.h">

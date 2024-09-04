@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "类的多态", "类的多�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "类的高级特性", "类的高级特性\类的高级特性.vcxproj", "{EF95A4CB-C44F-4D60-B28A-6CC17C3712E2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "练习", "练习\练习.vcxproj", "{353776E1-0D6C-42E8-9C12-56D3F7E453C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{EF95A4CB-C44F-4D60-B28A-6CC17C3712E2}.Release|x64.Build.0 = Release|x64
 		{EF95A4CB-C44F-4D60-B28A-6CC17C3712E2}.Release|x86.ActiveCfg = Release|Win32
 		{EF95A4CB-C44F-4D60-B28A-6CC17C3712E2}.Release|x86.Build.0 = Release|Win32
+		{353776E1-0D6C-42E8-9C12-56D3F7E453C2}.Debug|x64.ActiveCfg = Debug|x64
+		{353776E1-0D6C-42E8-9C12-56D3F7E453C2}.Debug|x64.Build.0 = Debug|x64
+		{353776E1-0D6C-42E8-9C12-56D3F7E453C2}.Debug|x86.ActiveCfg = Debug|Win32
+		{353776E1-0D6C-42E8-9C12-56D3F7E453C2}.Debug|x86.Build.0 = Debug|Win32
+		{353776E1-0D6C-42E8-9C12-56D3F7E453C2}.Release|x64.ActiveCfg = Release|x64
+		{353776E1-0D6C-42E8-9C12-56D3F7E453C2}.Release|x64.Build.0 = Release|x64
+		{353776E1-0D6C-42E8-9C12-56D3F7E453C2}.Release|x86.ActiveCfg = Release|Win32
+		{353776E1-0D6C-42E8-9C12-56D3F7E453C2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
