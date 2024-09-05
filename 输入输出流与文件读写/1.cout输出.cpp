@@ -18,8 +18,8 @@ int main()
 	// 第一个参数是要输出的字符数组,
 	// 第二个参数是指定的长度
 	// write也返回cout本身
-	cout.write(c, 5).put('/n');  // C++ P
-	cout.write(c, strlen(c)); // C++ PC++ Programming!
+	cout.write(c, 5).put('\n');  // C++ P
+	cout.write(c, strlen(c)); // C++ Programming!
 
 
 	return 0;

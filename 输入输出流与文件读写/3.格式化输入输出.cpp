@@ -9,7 +9,7 @@ int main()
 	cout << "1234567890" << endl;  //1234567890
 	// 流控制符
 	cout << setw(6) << 5.5 << endl; //   5.5
-	cout << 5.5 << endl; // 5.5
+	cout << 5.5 << endl; //5.5
 	// 成员函数
 	cout.width(6);
 	cout << 5.5 << endl;  //   5.5
@@ -41,7 +41,7 @@ int main()
 	int n = 100;
 	cout << "十六进制：" << hex << n << endl;  //64
 	cout << "八进制：" << oct << n << endl;  //144
-	cout << "八进制：" << 200 << endl; //310
+	cout << "不指定进制（默认显示八进制）：" << 9 << endl; //11
 	cout << "十进制：" << dec << 200 << endl; //200
 
 	return 0;

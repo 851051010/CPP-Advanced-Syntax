@@ -24,5 +24,17 @@
     <ClCompile Include="3.格式化输入输出.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="4.写入文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5.读入文本文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.读写二进制文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7.文件位置指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
