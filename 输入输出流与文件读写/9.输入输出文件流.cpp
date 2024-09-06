@@ -7,7 +7,6 @@ using namespace std;
 	创建文件 d.txt,内容如下
 	abcdefgh12345678
 */
-
 int main()
 {
 	// 定义输入输出流(光标默认在最前)
@@ -25,11 +24,9 @@ int main()
 	myInOut.read(c, len);
 	// 也可以用for循环输出（图片在桌面）
 	cout << "c:" << c << endl;
-
 	// 移动写指针到文件未尾
 	myInOut.seekp(0, ios::end);
 	myInOut.write(c, len);
-
 	delete[] c;
 
 	myInOut.close();
