@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "练习", "练习\练习.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "输入输出流与文件读写", "输入输出流与文件读写\输入输出流与文件读写.vcxproj", "{E0E904E8-A53F-43CA-B3C6-B5E033F1C420}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "调试与异常", "调试与异常\调试与异常.vcxproj", "{25CDCC57-22D9-4D24-991B-A6FB295BD394}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{E0E904E8-A53F-43CA-B3C6-B5E033F1C420}.Release|x64.Build.0 = Release|x64
 		{E0E904E8-A53F-43CA-B3C6-B5E033F1C420}.Release|x86.ActiveCfg = Release|Win32
 		{E0E904E8-A53F-43CA-B3C6-B5E033F1C420}.Release|x86.Build.0 = Release|Win32
+		{25CDCC57-22D9-4D24-991B-A6FB295BD394}.Debug|x64.ActiveCfg = Debug|x64
+		{25CDCC57-22D9-4D24-991B-A6FB295BD394}.Debug|x64.Build.0 = Debug|x64
+		{25CDCC57-22D9-4D24-991B-A6FB295BD394}.Debug|x86.ActiveCfg = Debug|Win32
+		{25CDCC57-22D9-4D24-991B-A6FB295BD394}.Debug|x86.Build.0 = Debug|Win32
+		{25CDCC57-22D9-4D24-991B-A6FB295BD394}.Release|x64.ActiveCfg = Release|x64
+		{25CDCC57-22D9-4D24-991B-A6FB295BD394}.Release|x64.Build.0 = Release|x64
+		{25CDCC57-22D9-4D24-991B-A6FB295BD394}.Release|x86.ActiveCfg = Release|Win32
+		{25CDCC57-22D9-4D24-991B-A6FB295BD394}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
